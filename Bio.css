@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+
+.bt1 {
+    border: none;
+    font-size: 50px;
+    font-family: 'Lora', serif;
+    background-color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+svg {
+    padding-top: -10px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    float: right;
+    background-color: white;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-weight: 10px;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-left: 40px;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.cont {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.cont input {
+    border: black 1px solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    line-height: 1.8;
+    gap: 40px;
+    width: 400px;
+}
+
+.cont, .msg {
+    height: 100px;
+    float: left;
+}
+
+.cont, .mail {
+    width: 100px;
+}
+
+.cont h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.cont button{ 
+    border: 1px black solid;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer a:hover {
+    color: rgb(167, 26, 26);
+}
+
+.footer a {
+    font-family: 'Lora', serif;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-top: 50px;
+margin-left: 400px;
+padding-bottom: 40px;
+}
+
+@media screen and (max-width: 400px) {
+    .cont input {
+        width: 300px;
+    }
+
+    h2 {
+        margin-right: 20px;
+    }
+
+    /* p {
+        margin-right: 40px;
+    } */
+
+    svg {
+        display: none;
+    }
+
+    .footer a {
+        font-family: 'Lora', serif;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 20px;
+    margin-left: 25px;
+    padding-bottom: 40px;
+    }
+}

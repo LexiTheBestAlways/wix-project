@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 599;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav p {
+    color: rgba(0, 0, 0, 0.755);
+    font-size: 18px;
+}
+
+.nav button {
+    font-size: 30px;
+    float: right;
+    margin-right: 22px;
+    border: none;
+    background-color: white;
+    font-family: 'Lora', serif;
+
+}
+
+svg {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    float: right;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.menu button {
+    border: none;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    background-color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+button:hover {
+    color: rgb(167, 26, 26);
+}
+
+/* PHOTOS */
+
+.section {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.redp img {
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.redp p {
+    font-weight: 590;
+    margin-left: 100px;
+}
+
+
+.yellowp img {
+    height: 100%;
+    width: 600px;
+    margin-top: 150px;
+}
+
+.yellowp p {
+    font-weight: 590;
+}
+
+
+.blackp img {
+    margin-left: 100px;
+    height: 500px;
+    width: 600px;
+}
+
+.blackp p {
+    font-weight: 590;
+    margin-left: 100px;
+}
+
+.whitep img {
+    margin-top: 300px;
+    width: 600px;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .nav h1 {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 25px;
+    }
+
+    .nav p {
+        padding-top: 5px;
+        padding-left: 10px;
+        color: rgba(0, 0, 0, 0.755);
+        font-size: 15px;
+    }
+
+    .section {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .redp img {
+        width: 300px;
+        height: 200px;
+        padding-top: 30px;
+        margin-left: 20px;
+    }
+
+    .redp p {
+        margin-left: 20px;
+    }
+
+
+    .yellowp img {
+        margin-top: 200px;
+        margin-left: 20px;
+        height: 400px;
+        width: 300px;
+    }
+
+    .yellowp p {
+        margin-left: 20px;
+    }
+
+
+    .blackp img {
+        margin-top: 180px;
+        margin-left: 20px;
+        height: 450px;
+        width: 300px;
+    }
+
+    .blackp p {
+        margin-left: 20px;
+    }
+
+
+    .whitep img {
+        margin-left: 20px;
+        height: 400px;
+        width: 300px;
+    }
+
+    .whitep p {
+        margin-left: 20px;
+    }
+
+    .menu button {
+        border: none;
+        font-size: 25px;
+        font-family: 'Lora', serif;
+        background-color: white;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        color: rgb(167, 26, 26);
+    }
+
+    svg {
+        display: none;
+    }
+}
